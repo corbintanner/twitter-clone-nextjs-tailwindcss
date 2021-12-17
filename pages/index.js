@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Feed from '../components/Feed'
 import Sidebar from '../components/Sidebar'
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
 
       <main className="bg-[#15202b] min-h-screen mx-auto max-w-[1500px] flex">
         <Sidebar />
-        {/* Content Feed */}
+        <Feed />
         {/* Widgets */}
 
         {/* Modal */}
